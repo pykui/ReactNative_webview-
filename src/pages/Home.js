@@ -16,9 +16,6 @@ import {
 	TouchableHighlight,
 	BackAndroid
 } from 'react-native';
-// import Header from '../components/Header';
-// import SwiperClassic from '../components/SwiperClassic';
-import BaseComponent from'./BaseComponent';
 import Camera from 'react-native-camera';
 import ImagePicker from 'react-native-image-picker'
 import { QRScannerView } from 'ac-qrcode'
@@ -34,7 +31,7 @@ export default class Home extends Component {
 		this.state = {
 			swiperShow:false,
 			animated: true,
-			hidden: true,//true为蕴藏
+			hidden: true,//true为隐藏
 			showHideTransition: 'fade',
 			routerInfo:'',
 			loading:false,

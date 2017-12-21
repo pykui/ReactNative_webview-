@@ -5,7 +5,6 @@ import React from 'react';
 import {Image} from 'react-native';
 import { TabNavigator } from 'react-navigation';
 import Home from './Home';
-import CameraBox from './CameraBox';
 
 const routerConfig = {
 	Home:{
@@ -17,44 +16,7 @@ const routerConfig = {
 			
 		}),		
 	}
-	// ,
-	// CameraBox:{
-	// 	getScreen: () => require('./CameraBox').default,
-	// 	//screen:CameraBox,
-	// 	paths: 'pages/CameraBox',
-	// 	navigationOptions:({navigation}) => ({
-	// 		tabBarLabel: '1',
-			
-	// 	}),
-	// },
-	// More:{
-	// 	getScreen: () => require('./More').default,
-	// 	//screen:More,
-	// 	paths: 'pages/More',
-	// 	navigationOptions:({navigation}) => ({
-	// 		tabBarLabel: 'more',
-	// 		tabBarIcon: ({ tintColor }) => (
-	// 			<Image
-	// 				source={require('../images/ic_find_charts.png')}
-	// 				style={[{tintColor: tintColor,width:30,height:30}]}
-	// 			/>
-	// 		)
-	// 	}),
-	// },
-	// Me:{
-	// 	getScreen: () => require('./Me').default,
-	// 	//screen:Me,
-	// 	paths: 'pages/Me',
-	// 	navigationOptions:({navigation}) => ({
-	// 		tabBarLabel: 'me',
-	// 		tabBarIcon: ({ tintColor }) => (
-	// 			<Image
-	// 				source={require('../images/ic_find_latest.png')}
-	// 				style={[{tintColor: tintColor,width:30,height:30}]}
-	// 			/>
-	// 		)
-	// 	}),
-	// }
+
 };
 
 const tabOptionsConfig = {
